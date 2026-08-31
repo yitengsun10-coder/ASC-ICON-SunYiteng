@@ -1,0 +1,13 @@
+ICON representative formal subset validation
+scope=1979-07-01T00:00:00 through 1979-07-20T00:00:00 (19 simulated days)
+steps=92520
+mpi_ranks=32 (30 compute plus 2 asynchronous IO)
+model_finish_status=OK
+final_model_time=1979-07-20T00:00:00.000
+netcdf_2d_time_records=19
+netcdf_3d_time_records=19
+wrapper_exit=1
+wrapper_exit_explanation=post-model cp attempted optional absent restart ape_from_spinup_restart_atm_19790720T000000Z.nc; model and requested NetCDF output completed normally
+elapsed_wall=28:26:43
+average_cpu=3191_percent
+max_rss_kib=358844

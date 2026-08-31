@@ -1,0 +1,1 @@
+  54655   54617    5120  0.0  0.0 mpirun --allow-run-as-root --bind-to core --map-by core -np 16 ./icon

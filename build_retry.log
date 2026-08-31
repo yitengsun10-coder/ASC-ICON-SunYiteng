@@ -1,0 +1,989 @@
+make[1]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc'
+  CONFIG   externals/cdi
+  CMAKE    externals/iconmath/build
+make[2]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+make[2]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+make[2]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/rte-rrtmgp'
+  GEN      Makefile.lib.deps
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+  GEN      version.c
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build/src/CMakeFiles/fortran-support.dir/DependInfo.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build/src/CMakeFiles/fortran-support.dir/depend.internal".
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build/src/CMakeFiles/fortran-support.dir/depend.internal".
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+[  4%] Building C object src/CMakeFiles/mtime_c.dir/mtime_date.c.o
+[ 14%] Building C object src/CMakeFiles/mtime_c.dir/mtime_datetime.c.o
+[ 19%] Building C object src/CMakeFiles/mtime_c.dir/mtime_calendar360day.c.o
+[ 28%] Building C object src/CMakeFiles/mtime_c.dir/mtime_calendar.c.o
+[ 28%] Building C object src/CMakeFiles/mtime_c.dir/mtime_eventList.c.o
+[ 38%] Building C object src/CMakeFiles/mtime_c.dir/kepler.c.o
+Scanning dependencies of target fortran-support
+[ 42%] Building C object src/CMakeFiles/mtime_c.dir/mtime_eventHandling.c.o
+[ 42%] Building C object src/CMakeFiles/mtime_c.dir/mtime_iso8601.c.o
+[ 42%] Building C object src/CMakeFiles/mtime_c.dir/mtime_calendarGregorian.c.o
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+[ 47%] Building C object src/CMakeFiles/mtime_c.dir/mtime_julianDay.c.o
+[ 52%] Building C object src/CMakeFiles/mtime_c.dir/mtime_calendar365day.c.o
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+[  2%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_iconlib_kind.F90.o
+[  5%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_io_units.F90.o
+[ 57%] Building C object src/CMakeFiles/mtime_c.dir/mtime_time.c.o
+[ 61%] Building C object src/CMakeFiles/mtime_c.dir/mtime_timedelta.c.o
+[ 11%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_stride.F90.o
+[ 14%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_backtrace.F90.o
+[ 17%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_rusage.F90.o
+[ 17%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_nml.F90.o
+[ 71%] Building C object src/CMakeFiles/mtime_c.dir/mtime_utilities.c.o
+[ 20%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_system.F90.o
+[ 71%] Building C object src/CMakeFiles/mtime_c.dir/orbit.c.o
+[ 76%] Building C object src/CMakeFiles/mtime_c.dir/vsop87.c.o
+[ 23%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_string_parse.F90.o
+[ 26%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_timer.F90.o
+[ 29%] Building C object src/CMakeFiles/fortran-support.dir/nml_annotate.c.o
+[ 35%] Building C object src/CMakeFiles/fortran-support.dir/util_arithmetic_expr.c.o
+[ 35%] Building C object src/CMakeFiles/fortran-support.dir/util_backtrace.c.o
+[ 38%] Building C object src/CMakeFiles/fortran-support.dir/util_file.c.o
+[ 41%] Building C object src/CMakeFiles/fortran-support.dir/util_hash.c.o
+[ 47%] Building C object src/CMakeFiles/fortran-support.dir/util_stride.c.o
+[ 50%] Building C object src/CMakeFiles/fortran-support.dir/util_string_parse.c.o
+[ 50%] Building C object src/CMakeFiles/fortran-support.dir/util_sysinfo.c.o
+[ 52%] Building C object src/CMakeFiles/fortran-support.dir/util_system.c.o
+  PPFC     rte-frontend/mo_rte_kind.o
+[ 55%] Building C object src/CMakeFiles/fortran-support.dir/util_timer.c.o
+  PPFC     gas-optics/mo_gas_optics_util_string.o
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+  PPFC     rte-frontend/mo_rte_util_array_validation.o
+  PPFC     rte-frontend/mo_rte_config.o
+  PPFC     rte-kernels/mo_fluxes_broadband_kernels.o
+[ 76%] Built target mtime_c
+  PPFC     rte-kernels/mo_optical_props_kernels.o
+  PPFC     rte-kernels/mo_rte_util_array.o
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+[ 58%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_exception.F90.o
+[ 61%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_sort.F90.o
+  PPFC     gas-optics/mo_gas_optics_constants.o
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build/src/CMakeFiles/mtime.dir/DependInfo.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build/src/CMakeFiles/mtime.dir/depend.internal".
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build/src/CMakeFiles/mtime.dir/depend.internal".
+[ 67%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_expression.F90.o
+[ 67%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_simple_dump.F90.o
+Scanning dependencies of target mtime
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+  PPFC     rte-kernels/mo_rte_solver_kernels.o
+  PPFC     rrtmgp-kernels/mo_gas_optics_rrtmgp_kernels.o
+[ 80%] Building Fortran object src/CMakeFiles/mtime.dir/mtime_constants.f90.o
+[ 85%] Building Fortran object src/CMakeFiles/mtime.dir/mtime_error_handling.f90.o
+  PPFC     gas-optics/mo_gas_concentrations.o
+[ 73%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_fortran_tools.F90.o
+[ 76%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_string.F90.o
+[ 79%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_octree.F90.o
+[ 85%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_file.F90.o
+[ 85%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_hash_table.F90.o
+[ 85%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_texthash.F90.o
+[ 90%] Building Fortran object src/CMakeFiles/mtime.dir/mtime_c_bindings.f90.o
+  PPFC     rte-frontend/mo_optical_props.o
+[ 95%] Building Fortran object src/CMakeFiles/mtime.dir/libmtime.f90.o
+[ 91%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_libc.F90.o
+[ 94%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_namelist.F90.o
+[ 94%] Building Fortran object src/CMakeFiles/fortran-support.dir/mo_util_table.F90.o
+  PPFC     rte-frontend/mo_fluxes.o
+  PPFC     rte-frontend/mo_source_functions.o
+  PPFC     rte-frontend/mo_rte_sw.o
+[100%] Linking Fortran static library libmtime.a
+  PPFC     rte-frontend/mo_rte_lw.o
+  PPFC     gas-optics/mo_gas_optics.o
+[ 97%] Building Fortran object src/CMakeFiles/fortran-support.dir/fortran_support.F90.o
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+[100%] Built target mtime
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+  PPFC     rrtmgp-frontend/mo_gas_optics_rrtmgp.o
+make[2]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/mtime/build'
+[100%] Linking Fortran static library libfortran-support.a
+  AR       librte.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+[100%] Built target fortran-support
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+make[2]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/fortran-support/build'
+make[2]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/support/CMakeFiles/iconmath-support.dir/DependInfo.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/support/CMakeFiles/iconmath-support.dir/depend.internal".
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/support/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/support/CMakeFiles/iconmath-support.dir/depend.internal".
+Scanning dependencies of target iconmath-support
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+[  6%] Building Fortran object src/support/CMakeFiles/iconmath-support.dir/mo_gridman_constants.f90.o
+[ 18%] Building Fortran object src/support/CMakeFiles/iconmath-support.dir/mo_lib_loopindices.f90.o
+[ 18%] Building Fortran object src/support/CMakeFiles/iconmath-support.dir/mo_math_types.f90.o
+[ 25%] Building Fortran object src/support/CMakeFiles/iconmath-support.dir/mo_random_number_generators.F90.o
+[ 31%] Building Fortran object src/support/CMakeFiles/iconmath-support.dir/mo_math_constants.f90.o
+[ 37%] Building Fortran object src/support/CMakeFiles/iconmath-support.dir/mo_lib_grid_geometry_info.f90.o
+[ 43%] Building Fortran object src/support/CMakeFiles/iconmath-support.dir/mo_math_utilities.F90.o
+  AR       librrtmgp.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/rte-rrtmgp'
+[ 50%] Linking Fortran static library libiconmath-support.a
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+[ 50%] Built target iconmath-support
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/interpolation/CMakeFiles/iconmath-interpolation.dir/DependInfo.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/interpolation/CMakeFiles/iconmath-interpolation.dir/depend.internal".
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/interpolation/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/interpolation/CMakeFiles/iconmath-interpolation.dir/depend.internal".
+Scanning dependencies of target iconmath-interpolation
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+[ 62%] Building Fortran object src/interpolation/CMakeFiles/iconmath-interpolation.dir/mo_lib_interpolation_scalar.F90.o
+[ 62%] Building Fortran object src/interpolation/CMakeFiles/iconmath-interpolation.dir/mo_lib_interpolation_vector.F90.o
+[ 68%] Building Fortran object src/interpolation/CMakeFiles/iconmath-interpolation.dir/mo_lib_intp_rbf.F90.o
+[ 75%] Linking Fortran static library libiconmath-interpolation.a
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+[ 75%] Built target iconmath-interpolation
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/horizontal/CMakeFiles/iconmath-horizontal.dir/DependInfo.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/horizontal/CMakeFiles/iconmath-horizontal.dir/depend.internal".
+Dependee "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/horizontal/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build/src/horizontal/CMakeFiles/iconmath-horizontal.dir/depend.internal".
+Scanning dependencies of target iconmath-horizontal
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+[ 87%] Building Fortran object src/horizontal/CMakeFiles/iconmath-horizontal.dir/mo_lib_gradients.F90.o
+[ 87%] Building Fortran object src/horizontal/CMakeFiles/iconmath-horizontal.dir/mo_lib_divrot.F90.o
+[ 93%] Building Fortran object src/horizontal/CMakeFiles/iconmath-horizontal.dir/mo_lib_laplace.F90.o
+[100%] Linking Fortran static library libiconmath-horizontal.a
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+[100%] Built target iconmath-horizontal
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+make[2]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/iconmath/build'
+make[2]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi'
+Making all in src
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/src'
+make  all-am
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/src'
+  CC       async_worker.lo
+  CC       basetime.lo
+  CC       binary.lo
+  CC       calendar.lo
+  CC       cdf.lo
+  CC       cdf_filter.lo
+  CC       cdf_int.lo
+  CC       cdf_lazy_grid.lo
+  CC       cdf_records.lo
+  CC       cdf_read.lo
+  CC       cdf_util.lo
+  CC       cdf_write.lo
+  CC       cdi_across.lo
+  CC       cdi_att.lo
+  CC       cdi_cksum.lo
+  CC       cdi_datetime.lo
+  CC       cdi_error.lo
+  CC       cdi_fdb.lo
+  CC       cdi_int.lo
+  CC       cdi_key.lo
+  CC       cdi_query.lo
+  CC       cdi_util.lo
+  CC       cgribexlib.lo
+  CC       cksum.lo
+  CC       dmemory.lo
+  CC       error.lo
+  CC       extralib.lo
+  CC       file.lo
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/externals/cdi/src/dmemory.c: In function ‘memTotal’:
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/externals/cdi/src/dmemory.c:491:10: warning: ‘mallinfo’ is deprecated [-Wdeprecated-declarations]
+  491 |   struct mallinfo meminfo = mallinfo();
+      |          ^~~~~~~~
+In file included from /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/externals/cdi/src/dmemory.c:18:
+/usr/include/malloc.h:114:24: note: declared here
+  114 | extern struct mallinfo mallinfo (void) __THROW __MALLOC_DEPRECATED;
+      |                        ^~~~~~~~
+  CC       gaussian_latitudes.lo
+  CC       get_num_missvals.lo
+  CC       grb_read.lo
+  CC       grb_write.lo
+  CC       gribapi.lo
+  CC       grid.lo
+  CC       ieglib.lo
+  CC       input_file.lo
+  CC       institution.lo
+  CC       iterator.lo
+  CC       iterator_fallback.lo
+  CC       iterator_grib.lo
+  CC       julian_date.lo
+  CC       model.lo
+  CC       namespace.lo
+  CC       referenceCounting.lo
+  CC       resource_handle.lo
+  CC       serialize.lo
+  CC       servicelib.lo
+  CC       stream.lo
+  CC       stream_cdf_i.lo
+  CC       stream_cdf_o.lo
+  CC       stream_cdf_time.lo
+  CC       stream_cgribex.lo
+  CC       stream_ext.lo
+  CC       stream_grb.lo
+  CC       stream_ieg.lo
+  CC       stream_read.lo
+  CC       stream_record.lo
+  CC       stream_scan.lo
+  CC       stream_srv.lo
+  CC       stream_var.lo
+  CC       stream_write.lo
+  CC       subtype.lo
+  CC       swap.lo
+  CC       table.lo
+  CC       util.lo
+  CC       taxis.lo
+  CC       varscan.lo
+  CC       tsteps.lo
+  CC       version.lo
+  CC       vlist.lo
+  CC       vlist_var.lo
+  CC       vlist_var_key.lo
+  CC       vlist_var_pack.lo
+  CC       zaxis.lo
+  FC       mo_cdi.lo
+  CCLD     libcdi.la
+  FCLD     libcdi_f2003.la
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/src'
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/src'
+Making all in interfaces
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/interfaces'
+Making all in python
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/interfaces/python'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/interfaces/python'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/interfaces'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/interfaces'
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/interfaces'
+Making all in app
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/app'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/app'
+Making all in examples
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/examples'
+Making all in pio
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/examples/pio'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/examples/pio'
+make[4]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/examples'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/examples'
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/examples'
+Making all in tests
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi/tests'
+make[3]: Entering directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi'
+make[2]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc/externals/cdi'
+  FC       src/shared/mo_impl_constants_grf.o
+  FC       src/shared/mo_kind.o
+  FC       src/io/shared/mo_netcdf.o
+  FC       support/mo_util_uuid_types.o
+  FC       src/io/shared/mo_cf_convention.o
+  FC       src/shared/mo_zaxis_type.o
+  FC       src/configure_model/mo_coupling_config.o
+  FC       src/shared/mo_event_manager.o
+  FC       src/io/shared/mo_grib2_tile.o
+  FC       src/io/shared/mo_cdi_constants.o
+  FC       src/io/shared/mo_nml_annotate.o
+  FC       src/parallel_infrastructure/mo_reshuffle.o
+  FC       src/io/restart/mo_c_restart_util.o
+  FC       src/atm_phy_aes/mo_aes_sfc_indices.o
+  FC       src/atm_phy_rte_rrtmgp/mo_simple_netcdf.o
+  FC       src/atm_phy_rte_rrtmgp/mo_cloud_optics.o
+  FC       src/atm_phy_aes/tmx/mo_generic_linked_list.o
+  FC       src/atm_phy_aes/tmx/mo_surrogate_class.o
+  FC       src/namelists/mo_synradar_nml.o
+  FC       src/shared/mo_impl_constants.o
+  FC       src/shared/mo_physical_constants.o
+  FC       src/io/shared/mo_output_event_types.o
+  FC       src/parallel_infrastructure/mo_extents.o
+  FC       src/io/shared/mo_grib2.o
+  FC       src/shared/mo_upatmo_impl_const.o
+  FC       src/shared/mo_bcs_time_interpolation.o
+  FC       src/configure_model/mo_2mom_mcrph_config.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_types.o
+  FC       support/mo_util_uuid.o
+  FC       src/shr_horizontal/mo_grf_intp_data_strc.o
+  FC       src/atm_phy_schemes/mo_turb_vdiff_params.o
+  FC       src/configure_model/mo_sleve_config.o
+  FC       src/lnd_phy_schemes/sfc_terra_data.o
+  FC       src/lnd_phy_schemes/sfc_flake_data.o
+  FC       src/shared/mo_index_list.o
+  FC       src/io/shared/mo_util_vgrid_types.o
+  FC       src/atm_phy_nwp/mo_nwp_parameters.o
+  FC       src/shared/mo_slice_array.o
+  FC       src/advection/mo_prepadv_types.o
+  FC       src/atm_phy_aes/mo_atm_energy_types.o
+  FC       src/atm_phy_aes/mo_cloud_mig/mo_cloud_mig_types.o
+  FC       src/atm_phy_schemes/mo_o3_macc_data.o
+  FC       src/atm_phy_schemes/mo_o3_gems_data.o
+  FC       src/shared/mo_time_base.o
+  FC       src/sppt/mo_sppt_types.o
+  FC       src/atm_phy_aes/mo_cloud_two/mo_cloud_two_types.o
+  FC       src/atm_phy_schemes/mo_rad_diag.o
+  FC       src/atm_phy_rte_rrtmgp/mo_radiation_general.o
+  FC       src/io/shared/mo_reader_util.o
+  FC       src/atm_phy_rte_rrtmgp/mo_icon_fluxes_sw.o
+  FC       src/atm_phy_schemes/mo_reff_types.o
+  FC       src/atm_phy_schemes/mo_cpl_aerosol_microphys.o
+  FC       src/shr_horizontal/mo_math_legendre.o
+  FC       src/atm_phy_schemes/mo_srtm_kgs.o
+  FC       src/atm_phy_schemes/mo_lrtm_par.o
+  FC       src/atm_phy_aes/tmx/mo_tmx_time_integration_class.o
+  FC       src/atm_phy_aes/tmx/mo_variable.o
+  FC       src/sea_ice/thermo/mo_sea_ice_types.o
+  FC       src/shared/mo_orbit.o
+  FC       src/atm_phy_schemes/mo_lrtm_kgs.o
+  FC       src/atm_phy_schemes/cloud_random_numbers.o
+  FC       src/atm_phy_aes/mo_copy.o
+  FC       src/lnd_phy_schemes/sfc_terra_util.o
+  FC       src/io/shared/mo_netcdf_errhandler.o
+  FC       src/configure_model/mo_nwp_tuning_config.o
+  FC       src/configure_model/mo_turbdiff_config.o
+  FC       src/shared/mo_vertical_coord_table.o
+  FC       src/configure_model/mo_gribout_config.o
+  FC       src/configure_model/mo_extpar_config.o
+  FC       src/configure_model/mo_radiation_config.o
+  FC       src/configure_model/mo_les_config.o
+  FC       src/atm_phy_schemes/mo_lookup_tables_constants.o
+  FC       src/configure_model/mo_art_config.o
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/atm_phy_schemes/mo_lookup_tables_constants.f90:131:0:
+
+  131 | #endif ! ACCWA
+      | 
+Warning: extra tokens at end of #endif directive
+  FC       src/configure_model/mo_comin_config.o
+  FC       src/configure_model/mo_diffusion_config.o
+  FC       src/configure_model/mo_mtgrm_config.o
+  FC       src/io/shared/mo_eccodes.o
+  FC       src/atm_phy_schemes/mo_aerosol_sources_types.o
+  FC       src/configure_model/mo_synsat_config.o
+  FC       src/shared/mo_deepatmo.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_config_default.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_nlte.o
+  FC       src/atm_phy_aes/mo_aes_thermo.o
+  FC       src/configure_model/mo_aes_cov_config.o
+  FC       src/atm_phy_schemes/mo_2mom_prepare.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb17.o
+  FC       src/ocean/diagnostics/mo_ocean_diagnostics_types.o
+  FC       src/shared/mo_cuda_graphs.o
+  FC       src/atm_phy_schemes/mo_sso_cosmo.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_iondrag.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_euv.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_fric.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_no.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_vdfmol.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_srbc.o
+  FC       src/atm_phy_schemes/mo_sim_rad.o
+  FC       src/atm_phy_rte_rrtmgp/mo_radiation_solar_data.o
+  FC       src/atm_phy_aes/mo_radheating.o
+  FC       src/configure_model/mo_check_ext_constants.o
+  FC       src/configure_model/mo_oem_config.o
+  FC       src/configure_model/mo_master_config.o
+  FC       src/configure_model/mo_time_config.o
+  FC       src/io/shared/mo_level_selection_types.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_dmin_wetgrowth.o
+  FC       src/configure_model/mo_turb_vdiff_config.o
+  FC       src/atm_phy_schemes/mo_cuparameters.o
+  FC       src/atm_phy_rte_rrtmgp/mo_load_cloud_coefficients.o
+  FC       src/configure_model/mo_aes_cop_config.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb25.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb21.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb28.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb23.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb20.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb27.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb29.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb19.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb16.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb24.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb26.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb22.o
+  FC       src/atm_phy_schemes/mo_srtm_kgb18.o
+  FC       src/atm_phy_schemes/mo_lrtm_taumol.o
+  FC       src/configure_model/mo_nudging_config.o
+  FC       src/atm_phy_schemes/mo_thdyn_functions.o
+  FC       src/atm_phy_aes/mo_cloud_mig/mo_aes_graupel.o
+  FC       src/atm_phy_schemes/mo_sso_ifs.o
+  FC       src/drivers/mo_master_control.o
+  FC       src/shared/mo_action_types.o
+  FC       src/configure_model/mo_aes_phy_config.o
+  FC       src/atm_phy_schemes/mo_cufunctions.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_setup.o
+  FC       src/atm_phy_schemes/mo_cloud_diag.o
+  FC       src/atm_phy_schemes/mo_satad.o
+  FC       src/parallel_infrastructure/mo_mpi.o
+  FC       src/atm_phy_schemes/mo_adjust.o
+  FC       src/atm_phy_schemes/mo_cucalclfd.o
+  FC       src/atm_phy_schemes/mo_cuflxtends.o
+  FC       src/atm_phy_schemes/mo_cucalclpi.o
+  FC       src/atm_phy_aes/mo_cloud_mig/mo_snow_ice_reff.o
+  FC       src/atm_phy_schemes/mo_cover_cosmo.o
+  FC       src/granules/microphysics_1mom_schemes/gscp_data.o
+  FC       src/atm_phy_schemes/mo_cudescn.o
+  FC       src/atm_phy_schemes/mo_cuinit.o
+  FC       src/granules/microphysics_1mom_schemes/gscp_graupel.o
+  FC       src/granules/microphysics_1mom_schemes/gscp_ice.o
+  FC       src/granules/microphysics_1mom_schemes/gscp_kessler.o
+  FC       src/granules/microphysics_1mom_schemes/gscp_cloudice.o
+  FC       src/granules/microphysics_1mom_schemes/microphysics_1mom_schemes.o
+  FC       src/atm_phy_schemes/mo_lrtm_coeffs.o
+  FC       src/atm_phy_schemes/mo_srtm_config.o
+  FC       src/atm_phy_schemes/mo_srtm_taumol.o
+  FC       src/io/shared/mo_netcdf_parallel.o
+  FC       src/shared/mo_util_sysinfo.o
+  FC       src/configure_model/mo_parallel_config.o
+  FC       src/parallel_infrastructure/mo_dist_dir.o
+  FC       src/parallel_infrastructure/mo_packed_message.o
+  FC       src/shared/mo_util_mtime.o
+  FC       src/shr_horizontal/mo_lonlat_grid.o
+  FC       src/atm_dyn_iconam/mo_ifs_coord.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_util.o
+  FC       src/parallel_infrastructure/mo_dist_array.o
+  FC       src/shared/mo_checksum.o
+  FC       src/namelists/mo_dbg_nml.o
+  FC       src/configure_model/mo_nh_pzlev_config.o
+  FC       src/io/shared/mo_name_list_output_stats.o
+  FC       src/atm_phy_aes/tmx/mo_variable_list.o
+  FC       src/shr_horizontal/mo_delaunay_types.o
+  FC       src/namelists/mo_oem_nml.o
+  FC       src/namelists/mo_master_nml.o
+  FC       src/shared/mo_memory_log.o
+  FC       src/shared/mo_key_value_store.o
+  FC       src/io/shared/mo_name_list_output_zaxes_types.o
+  FC       src/configure_model/mo_limarea_config.o
+  FC       src/shared/mo_math_utility_solvers.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_chemheat.o
+  FC       src/configure_model/mo_aes_bubble_config.o
+  FC       src/advection/mo_advection_vlimit.o
+  FC       src/shared/mo_util_vcs.o
+  FC       src/parallel_infrastructure/mo_decomposition_tools.o
+  FC       src/drivers/mo_master_init.o
+  FC       src/configure_model/mo_grid_config.o
+  FC       src/configure_model/mo_run_config.o
+  FC       src/shr_horizontal/mo_grid_geometry_info.o
+  FC       src/atm_phy_rte_rrtmgp/mo_load_coefficients.o
+  FC       src/atm_phy_bcs/mo_bc_greenhouse_gases.o
+  FC       src/atm_phy_schemes/mo_newcld_optics.o
+  FC       src/atm_phy_schemes/mo_lrtm_netcdf.o
+  FC       src/shared/mo_var_groups.o
+  FC       src/shared/mo_tracer_metadata_types.o
+  FC       src/io/restart/mo_restart_nmls_and_atts.o
+  FC       src/shared/mo_dictionary.o
+  FC       src/configure_model/mo_gridref_config.o
+  FC       src/configure_model/mo_aes_rad_config.o
+  FC       src/configure_model/mo_aes_vdf_config.o
+  FC       src/configure_model/mo_aes_wmo_config.o
+  FC       src/atm_phy_aes/mo_aes_phy_dims.o
+  FC       src/atm_phy_bcs/mo_bc_solar_irradiance.o
+  FC       src/namelists/mo_grid_nml.o
+  FC       src/parallel_infrastructure/mo_scatter_pattern_base.o
+  FC       src/shared/mo_real_timer.o
+  FC       src/configure_model/mo_interpol_config.o
+  FC       src/configure_model/mo_ccycle_config.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_processes.o
+  FC       src/shr_horizontal/mo_delaunay.o
+  FC       src/parallel_infrastructure/mo_communication_types.o
+  FC       src/parallel_infrastructure/mo_divide_cells_by_location_mpi.o
+  FC       src/shared/mo_tracer_metadata.o
+  FC       src/atm_phy_schemes/mo_srtm.o
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/shared/mo_real_timer.f90:1497:32:
+
+   20 |   USE mo_util_timer,      ONLY: c_util_read_real_time => util_read_real_time, &
+      |      2                          
+......
+ 1497 |   SUBROUTINE util_diff_real_time(it1, it2, t)
+      |                                1
+Warning: Type mismatch in argument 'it1' (TYPE(c_ptr)/REAL(8)) between (1) and (2)
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/shared/mo_real_timer.f90:1488:32:
+
+   20 |   USE mo_util_timer,      ONLY: c_util_read_real_time => util_read_real_time, &
+      |      2                          
+......
+ 1488 |   SUBROUTINE util_read_real_time(it)
+      |                                1
+Warning: Type mismatch in argument 'it' (TYPE(c_ptr)/REAL(8)) between (1) and (2)
+  FC       src/diagnostics/mo_tropopause.o
+  FC       src/namelists/mo_process_nml.o
+  FC       src/namelists/mo_ser_nml.o
+  FC       src/namelists/mo_comin_nml.o
+  FC       src/namelists/mo_art_nml.o
+  FC       src/namelists/mo_nwp_tuning_nml.o
+  FC       src/namelists/mo_limarea_nml.o
+  FC       src/namelists/mo_mtgrm_nml.o
+  FC       src/namelists/mo_time_nml.o
+  FC       src/namelists/mo_gridref_nml.o
+  FC       src/namelists/mo_gribout_nml.o
+  FC       src/namelists/mo_turb_vdiff_nml.o
+  FC       src/namelists/mo_sleve_nml.o
+  FC       src/namelists/mo_diffusion_nml.o
+  FC       src/namelists/mo_radiation_nml.o
+  FC       src/namelists/mo_extpar_nml.o
+  FC       src/namelists/mo_turbdiff_nml.o
+  FC       src/namelists/mo_synsat_nml.o
+  FC       src/namelists/mo_run_nml.o
+  FC       src/namelists/mo_parallel_nml.o
+  FC       src/parallel_infrastructure/mo_scatter_pattern_scatter.o
+  FC       src/atm_phy_nwp/mo_phy_events.o
+  FC       src/namelists/mo_scm_nml.o
+  FC       src/configure_model/mo_dynamics_config.o
+  FC       src/namelists/mo_nudging_nml.o
+  FC       src/hamocc/icon_specific/mo_hamocc_nml.o
+  FC       src/namelists/mo_les_nml.o
+  FC       src/namelists/mo_sea_ice_nml.o
+  FC       src/atm_phy_schemes/mo_lrtm_setup.o
+  FC       src/namelists/mo_interpol_nml.o
+  FC       src/namelists/mo_aes_cop_nml.o
+  FC       src/namelists/mo_aes_vdf_nml.o
+  FC       src/namelists/mo_aes_rad_nml.o
+  FC       src/namelists/mo_ccycle_nml.o
+  FC       src/io/shared/mo_read_netcdf_types.o
+  FC       src/shr_horizontal/mo_pre_model_domain.o
+  FC       src/namelists/mo_aes_cov_nml.o
+  FC       src/namelists/mo_aes_bubble_nml.o
+  FC       src/namelists/mo_aes_wmo_nml.o
+  FC       src/namelists/mo_aes_phy_nml.o
+  FC       src/parallel_infrastructure/mo_communication.o
+  FC       src/shared/mo_timer.o
+  FC       src/namelists/mo_dynamics_nml.o
+  FC       src/hamocc/common/mo_param1_bgc.o
+  FC       src/atm_phy_schemes/mo_lrtm_rtrnmr.o
+  FC       src/parallel_infrastructure/mo_communication_orig.o
+  FC       src/atm_phy_aes/mo_cloud_mig/mo_cloud_mig.o
+  FC       src/atm_phy_schemes/mo_lrtm_driver.o
+  FC       src/shr_horizontal/mo_model_domain.o
+  FC       src/io/shared/mo_reorder_info.o
+  FC       src/io/shared/mo_read_netcdf_broadcast_2.o
+  FC       src/shr_horizontal/mo_intp_data_strc.o
+  FC       src/parallel_infrastructure/mo_communication_factory.o
+  FC       src/io/shared/mo_read_netcdf_distributed.o
+  FC       src/shared/mo_var_metadata_types.o
+  FC       src/parallel_infrastructure/mo_sync.o
+  FC       src/shr_horizontal/mo_math_gradients.o
+  FC       src/shared/mo_loopindices.o
+  FC       src/shr_horizontal/mo_math_divrot.o
+  FC       src/shr_horizontal/mo_icon_interpolation_scalar.o
+  FC       src/testcases/mo_ncar_testcases.o
+  FC       src/shared/mo_grid_subset.o
+  FC       src/shr_horizontal/mo_reorder_patches.o
+  FC       src/configure_model/mo_assimilation_config.o
+  FC       src/shr_horizontal/mo_grf_bdyintp.o
+  FC       src/shr_horizontal/mo_intp_lonlat_types.o
+  FC       src/shr_horizontal/mo_grf_ubcintp.o
+  FC       src/atm_phy_schemes/mo_convect_tables.o
+  FC       src/io/shared/mo_reader_abstract.o
+  FC       src/atm_phy_aes/mo_aes_convect_tables.o
+  FC       src/ocean/tracer_transport/mo_ocean_tracer_transport_types.o
+  FC       src/shared/mo_solar_parameters.o
+  FC       src/shr_horizontal/mo_rbf_errana.o
+  FC       src/io/shared/mo_name_list_output_types.o
+  FC       src/shared/mo_var_metadata.o
+  FC       src/shared/mo_var.o
+  FC       src/lnd_phy_nwp/mo_nwp_sfc_tiles.o
+  FC       src/shr_horizontal/mo_intp_rbf.o
+  FC       src/shr_horizontal/mo_icon_interpolation_vector.o
+  FC       src/coupling/mo_coupling_utils.o
+  FC       src/shr_horizontal/mo_grid_tools.o
+  FC       src/shr_horizontal/mo_grf_intp_coeffs.o
+  FC       src/shr_horizontal/mo_grf_nudgintp.o
+  FC       src/parallel_infrastructure/mo_icon_comm_lib.o
+  FC       src/shared/mo_statistics.o
+  FC       src/shared/mo_random_util.o
+  FC       src/shared/mo_latitude_interpolation.o
+  FC       src/io/shared/mo_reader_sst_sic.o
+  FC       src/shared/mo_interpolate_time.o
+  FC       src/atm_phy_aes/tmx/mo_tmx_field_class.o
+  FC       src/io/shared/mo_reader_cams.o
+  FC       src/atm_phy_aes/mo_omp_block_loop.o
+  FC       src/namelists/mo_assimilation_nml.o
+  FC       src/shr_horizontal/mo_alloc_patches.o
+  FC       src/io/shared/mo_input_container.o
+  FC       src/io/restart/mo_restart_var_data.o
+  FC       src/coupling/mo_atmo_cleo_coupling.o
+  FC       src/coupling/mo_atmo_aero_provider_coupling.o
+  FC       src/coupling/mo_atmo_ocean_coupling_common.o
+  FC       src/io/shared/mo_name_list_output_metadata.o
+  FC       src/io/shared/mo_level_selection.o
+  FC       src/io/shared/mo_output_event_control.o
+  FC       src/ocean/dynamics/mo_ocean_types.o
+  FC       src/atm_phy_schemes/mo_stoch_deep.o
+  FC       src/atm_phy_schemes/mo_stoch_explicit.o
+  FC       src/atm_phy_schemes/mo_stoch_sde.o
+  FC       src/namelists/mo_coupling_nml.o
+  FC       src/io/shared/mo_io_util.o
+  FC       src/configure_model/mo_name_list_output_config.o
+  FC       src/shared/mo_var_list.o
+  FC       src/configure_model/mo_lnd_nwp_config.o
+  FC       src/atm_dyn_iconam/mo_initicon_types.o
+  FC       src/shr_horizontal/mo_intp.o
+  FC       src/shr_horizontal/mo_intp_rbf_coeffs.o
+  FC       src/shr_horizontal/mo_intp_coeffs.o
+  FC       src/coupling/mo_dummy_coupling_frame.o
+  FC       src/coupling/mo_atmo_o3_provider_coupling.o
+  FC       src/atm_phy_schemes/mo_stoch_pattern_generator.o
+  FC       src/atm_phy_aes/tmx/mo_tmx_process_class.o
+  FC       src/atm_phy_aes/tmx/mo_tmx_smagorinsky.o
+  FC       src/shr_horizontal/mo_intp_lonlat_baryctr.o
+  FC       src/shared/mo_idx_list.o
+  FC       src/shr_horizontal/mo_math_laplace.o
+  FC       src/shr_horizontal/mo_model_domimp_setup.o
+  FC       src/parallel_infrastructure/mo_complete_subdivision.o
+  FC       src/shr_horizontal/mo_grf_intp_state.o
+  FC       src/lnd_phy_schemes/sfc_flake.o
+  FC       src/lnd_phy_schemes/sfc_seaice.o
+  FC       src/io/shared/mo_post_op.o
+  FC       src/lnd_phy_schemes/sfc_terra_init.o
+  FC       src/io/shared/mo_output_event_handler.o
+  FC       src/lnd_phy_schemes/mo_voskin.o
+  FC       src/lnd_phy_schemes/sfc_terra_snow.o
+  FC       src/lnd_phy_schemes/sfc_terra_evap.o
+  FC       src/namelists/mo_lnd_nwp_nml.o
+  FC       src/shared/mo_upatmo_utils.o
+  FC       src/configure_model/mo_io_config.o
+  FC       src/io/shared/mo_grib2_util.o
+  FC       src/configure_model/mo_nonhydrostatic_config.o
+  FC       src/lnd_phy_nwp/mo_nwp_lnd_types.o
+  FC       src/parallel_infrastructure/mo_icon_comm_interface.o
+  FC       src/io/atmo/mo_async_latbc_types.o
+  FC       src/coupling/mo_atmo_wave_coupling.o
+  FC       src/atm_phy_aes/tmx/mo_tmx_numerics.o
+  FC       src/data_assimilation/lhn/mo_radar_data_types.o
+  FC       src/shared/mo_gnat_gridsearch.o
+  FC       src/atm_dyn_iconam/mo_nonhydro_types.o
+  FC       src/shr_horizontal/mo_process_topo.o
+  FC       src/shr_horizontal/mo_ext_data_types.o
+  FC       src/parallel_infrastructure/mo_setup_subdivision.o
+  FC       src/upper_atmosphere/mo_upatmo_types.o
+  FC       src/io/restart/mo_restart_util.o
+  FC       src/io/restart/mo_multifile_restart_util.o
+  FC       src/atm_phy_nwp/mo_nwp_ww.o
+  FC       src/io/shared/mo_write_netcdf.o
+  FC       src/io/shared/mo_name_list_output_gridinfo.o
+  FC       src/namelists/mo_io_nml.o
+  FC       src/namelists/mo_nonhydrostatic_nml.o
+  FC       src/io/icon_output_model/mo_icon_output_time_events.o
+  FC       src/configure_model/mo_upatmo_phy_config.o
+  FC       src/io/shared/mo_read_interface.o
+  FC       src/io/shared/mo_util_cdi.o
+  FC       src/configure_model/mo_atm_phy_nwp_config.o
+  FC       src/atm_phy_nwp/mo_nwp_vdiff_types.o
+  FC       src/shared/mo_var_list_register.o
+  FC       src/atm_dyn_iconam/mo_hydro_adjust.o
+  FC       src/atm_dyn_iconam/mo_nh_vert_interp_les.o
+  FC       src/lnd_phy_nwp/mo_nwp_sfc_interp.o
+  FC       src/atm_dyn_iconam/mo_init_vgrid.o
+  FC       src/atm_dyn_iconam/mo_update_dyn_scm.o
+  FC       src/shared/mo_util_dbg_prnt.o
+  FC       src/io/restart/mo_load_singlefile_restart.o
+  FC       src/upper_atmosphere/mo_upatmo_extdat_utils.o
+  FC       src/testcases/mo_nh_tpe_exp.o
+  FC       src/testcases/mo_nh_pa_test.o
+  FC       src/testcases/mo_nh_hs_test.o
+  FC       src/atm_dyn_iconam/mo_nh_prog_util.o
+  FC       src/testcases/mo_nh_df_test.o
+  FC       src/testcases/mo_nh_dcmip_hadley.o
+  FC       src/atm_dyn_iconam/mo_nh_moist_thdyn.o
+  FC       src/advection/mo_prepadv_util.o
+  FC       src/shr_horizontal/mo_intp_lonlat.o
+  FC       src/shr_horizontal/mo_ext_data_inquire.o
+  FC       src/io/restart/mo_async_restart_comm_data.o
+  FC       src/io/restart/mo_multifile_restart_collector.o
+  FC       src/lnd_phy_nwp/mo_nwp_lnd_state.o
+  FC       src/atm_phy_schemes/mo_sbm_storage.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_main.o
+  FC       src/io/restart/mo_load_multifile_restart.o
+  FC       src/atm_phy_bcs/mo_bc_aeropt_splumes_memory.o
+  FC       src/atm_phy_rte_rrtmgp/mo_radiation_forcing_memory.o
+  FC       src/atm_phy_aes/mo_atm_energy_memory.o
+  FC       src/atm_phy_aes/mo_cloud_two/mo_cloud_two_memory.o
+  FC       src/atm_phy_schemes/data_gwd.o
+  FC       src/shared/mo_action.o
+  FC       src/coupling/mo_output_coupling.o
+  FC       src/testcases/mo_aes_bubble.o
+  FC       src/io/shared/mo_name_list_output_printvars.o
+  FC       src/io/shared/mo_name_list_output_zaxes.o
+  FC       src/atm_phy_bcs/mo_bc_sst_sic.o
+  FC       src/sea_ice/thermo/mo_ice_winton.o
+  FC       src/sea_ice/thermo/mo_ice_zerolayer.o
+  FC       src/sea_ice/thermo/mo_ice_parameterizations.o
+  FC       src/atm_phy_bcs/mo_bc_anthro_emission.o
+  FC       src/advection/mo_prepadv_state.o
+  FC       src/data_assimilation/lhn/mo_radar_data_state.o
+  FC       src/atm_phy_schemes/turb_utilities.o
+  FC       src/lnd_phy_schemes/sfc_terra_transport.o
+  FC       src/atm_phy_schemes/mo_gme_turbdiff.o
+  FC       src/atm_phy_schemes/mo_cuascn.o
+  FC       src/namelists/mo_nwp_phy_nml.o
+  FC       src/namelists/mo_2mom_mcrph_nml.o
+  FC       src/io/icon_output_model/mo_icon_output_variables.o
+  FC       src/configure_model/mo_upatmo_config.o
+  FC       src/io/icon_output_model/mo_icon_output_coupling.o
+  FC       src/atm_phy_nwp/mo_nwp_phy_types.o
+  FC       src/namelists/mo_ls_forcing_nml.o
+  FC       src/shared/mo_var_list_register_utils.o
+  FC       src/testcases/mo_nh_dcmip_gw.o
+  FC       src/shared/mo_time_management.o
+  FC       src/shr_horizontal/mo_rbf_coefficients_io.o
+  FC       src/atm_phy_bcs/mo_bc_ozone.o
+  FC       src/atm_phy_bcs/mo_bc_aeropt_splumes_opt.o
+  FC       src/atm_phy_bcs/mo_bc_aeropt_volc.o
+  FC       src/atm_phy_bcs/mo_bc_aeropt_kinne.o
+  FC       src/atm_phy_aes/mo_lcariolle.o
+  FC       src/atm_phy_bcs/mo_bc_aeropt_splumes.o
+  FC       src/atm_phy_schemes/mo_gwd_wms.o
+  FC       src/atm_phy_nwp/mo_opt_nwp_reflectivity.o
+  FC       src/configure_model/mo_ensemble_pert_config.o
+  FC       src/coupling/mo_nwp_hydrodisc_coupling.o
+  FC       src/sea_ice/thermo/mo_ice_fast.o
+  FC       src/atm_phy_nwp/mo_nwp_vdiff_radfluxes.o
+  FC       src/coupling/mo_nwp_ocean_coupling.o
+  FC       src/data_assimilation/lhn/mo_latent_heat_nudging.o
+  FC       src/lnd_phy_nwp/mo_nwp_oskin_interface.o
+  FC       src/lnd_phy_schemes/sfc_terra_main.o
+  FC       src/atm_phy_schemes/turb_vertdiff.o
+  FC       src/atm_phy_schemes/mo_cumaster.o
+  FC       src/atm_phy_les/mo_surface_les.o
+  FC       src/namelists/mo_upatmo_nml.o
+  FC       src/configure_model/mo_initicon_config.o
+  FC       src/atm_phy_nwp/mo_util_phys.o
+  FC       src/configure_model/mo_advection_config.o
+  FC       src/sppt/mo_sppt_config.o
+  FC       src/upper_atmosphere/mo_upatmo_flowevent_utils.o
+  FC       src/atm_dyn_iconam/mo_nh_vert_extrap_utils.o
+  FC       src/diagnostics/atmosphere/mo_diag_hailcast.o
+  FC       src/io/restart/mo_load_restart.o
+  FC       src/upper_atmosphere/mo_upatmo_extdat.o
+  FC       src/upper_atmosphere/mo_upatmo_extdat_state.o
+  FC       src/atm_phy_les/mo_ls_forcing.o
+  FC       src/shared/mo_save_restore.o
+  FC       src/shared/mo_derived_variable_handling.o
+  FC       src/atm_phy_schemes/turb_transfer.o
+  FC       src/atm_phy_schemes/turb_diffusion.o
+  FC       src/io/atmo/mo_latbc_read_recv.o
+  FC       src/sppt/mo_sppt_state.o
+  FC       src/atm_phy_schemes/mo_albedo.o
+  FC       src/sppt/mo_sppt_core.o
+  FC       src/atm_dyn_iconam/mo_nh_feedback.o
+  FC       src/advection/mo_advection_vflux.o
+  FC       src/namelists/mo_initicon_nml.o
+  FC       src/sppt/mo_sppt_nml.o
+  FC       src/namelists/mo_advection_nml.o
+  FC       src/atm_dyn_iconam/mo_nh_init_utils.o
+  FC       src/atm_dyn_iconam/mo_nh_diagnose_pres_temp.o
+  FC       src/shr_horizontal/mo_model_domimp_patches.o
+  FC       src/advection/mo_advection_utils.o
+  FC       src/ocean/config/mo_ocean_nml.o
+  FC       src/atm_phy_schemes/mo_aerosol_sources.o
+  FC       src/shr_horizontal/mo_ext_data_state.o
+  FC       src/shr_horizontal/mo_intp_coeffs_lsq_bln.o
+  FC       src/io/restart/mo_restart_patch_description.o
+  FC       src/atm_dyn_iconam/mo_opt_diagnostics.o
+  FC       src/atm_phy_nwp/mo_nwp_phy_state.o
+  FC       src/atm_phy_nwp/mo_nh_diagnose_pmsl.o
+  FC       src/atm_phy_aes/mo_cloud_mig/mo_cloud_mig_memory.o
+  FC       src/atm_phy_schemes/mo_2mom_mcrph_driver.o
+  FC       src/atm_phy_schemes/mo_cover_koe.o
+  FC       src/namelists/mo_ensemble_pert_nml.o
+  FC       src/upper_atmosphere/mo_upatmo_state.o
+  FC       src/atm_dyn_iconam/mo_iau.o
+  FC       src/testcases/mo_nh_dcmip_rest_atm.o
+  FC       src/testcases/mo_nh_dcmip_tc.o
+  FC       src/io/shared/mo_name_list_output_init.o
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/io/shared/mo_name_list_output_init.f90:1288:0:
+
+ 1288 | #endif ! NOMPI
+      | 
+Warning: extra tokens at end of #endif directive
+  FC       src/sppt/mo_sppt_util.o
+  FC       src/atm_dyn_iconam/mo_nudging.o
+  FC       src/atm_dyn_iconam/mo_nh_supervise.o
+  FC       src/advection/mo_advection_traj.o
+  FC       src/advection/mo_advection_geometry.o
+  FC       src/advection/mo_advection_hlimit.o
+  FC       src/advection/mo_advection_quadrature.o
+  FC       src/testcases/mo_nh_jabw_exp.o
+  FC       src/testcases/mo_nh_dcmip_schaer.o
+  FC       src/testcases/mo_nh_lim_area_testcases.o
+  FC       src/testcases/mo_nh_wk_exp.o
+  FC       src/atm_dyn_iconam/mo_nonhydro_state.o
+  FC       src/io/restart/mo_restart_patch_data.o
+  FC       src/atm_dyn_iconam/mo_nh_vert_interp.o
+  FC       src/atm_phy_nwp/mo_opt_nwp_diagnostics.o
+  FC       src/atm_phy_aes/mo_cloud_two/mo_cloud_two.o
+  FC       src/parallel_infrastructure/mo_build_decomposition.o
+  FC       src/shr_horizontal/mo_intp_state.o
+  FC       src/atm_phy_schemes/mo_reff_main.o
+  FC       src/atm_phy_schemes/mo_sbm_util.o
+  FC       src/advection/mo_advection_aerosols.o
+  FC       src/advection/mo_advection_hflux.o
+  FC       src/testcases/mo_nh_mrw_exp.o
+  FC       src/io/restart/mo_async_restart_patch_data.o
+  FC       src/io/restart/mo_sync_restart_patch_data.o
+  FC       src/io/restart/mo_multifile_restart_patch_data.o
+  FC       src/atm_phy_nwp/mo_nwp_reff_interface.o
+  FC       src/namelists/mo_nh_testcases_nml.o
+  FC       src/atm_phy_schemes/mo_sbm_main.o
+  FC       src/io/icon_output_model/mo_read_icon_output_namelists.o
+  FC       src/io/restart/mo_restart_descriptor.o
+  FC       src/testcases/mo_nh_torus_exp.o
+  FC       src/configure_model/mo_nml_crosscheck.o
+  FC       src/atm_phy_schemes/mo_turb_vdiff_diag.o
+  FC       src/testcases/mo_nh_bb13_exp.o
+  FC       src/testcases/mo_aes_cbl.o
+  FC       src/testcases/mo_nh_dcmip_bw.o
+  FC       src/testcases/mo_nh_rce_exp.o
+  FC       src/testcases/mo_nh_dcmip_terminator.o
+  FC       src/testcases/mo_ape_params.o
+  FC       src/atm_phy_aes/tmx/mo_tmx_surface.o
+  FC       src/advection/mo_advection_stepping.o
+  FC       src/atm_dyn_iconam/mo_nh_held_suarez_interface.o
+  FC       src/advection/mo_integrate_density_pa.o
+  FC       src/namelists/mo_read_namelists.o
+  FC       src/atm_phy_aes/tmx/mo_vdf_atmo.o
+  FC       src/atm_phy_aes/tmx/mo_vdf_diag_smag.o
+  FC       src/atm_phy_nwp/mo_nwp_diagnosis.o
+  FC       src/atm_phy_nwp/mo_phys_nest_utilities.o
+  FC       src/atm_phy_nwp/mo_nwp_gpu_util.o
+  FC       src/atm_dyn_iconam/mo_nh_vert_interp_ipz.o
+  FC       src/atm_dyn_iconam/mo_nh_nest_utilities.o
+  FC       src/atm_dyn_iconam/mo_vertical_grid.o
+  FC       src/atm_phy_aes/mo_aes_phy_memory.o
+  FC       src/atm_phy_schemes/mo_turb_vdiff_sma.o
+  FC       src/atm_phy_schemes/mo_o3_util.o
+  FC       src/atm_phy_les/mo_turbulent_diagnostic.o
+  FC       src/io/restart/mo_async_restart.o
+  FC       src/io/restart/mo_multifile_restart.o
+  FC       src/io/restart/mo_sync_restart.o
+  FC       src/atm_phy_schemes/mo_sbm_driver.o
+  FC       src/testcases/mo_nh_testcase_interface.o
+  FC       src/testcases/mo_nh_testcases.o
+  FC       src/atm_phy_schemes/mo_aerosol_util.o
+  FC       src/atm_phy_aes/tmx/mo_vdf_sfc.o
+  FC       src/atm_phy_nwp/mo_nwp_turbdiff_interface.o
+  FC       src/atm_phy_nwp/mo_nwp_conv_interface.o
+  FC       src/atm_phy_nwp/mo_nwp_gw_interface.o
+  FC       src/atm_phy_nwp/mo_nwp_turbtrans_interface.o
+  FC       src/shr_horizontal/mo_ext_data_init.o
+  FC       src/data_assimilation/interfaces/mo_icon2dace.o
+  FC       src/atm_dyn_iconam/mo_pp_tasks.o
+  FC       src/atm_phy_nwp/mo_rttov_interface.o
+  FC       src/atm_phy_les/mo_sgs_turbulence.o
+  FC       src/atm_phy_les/mo_sgs_turbmetric.o
+  FC       src/io/atmo/mo_async_latbc_utils.o
+  FC       src/atm_phy_schemes/mo_turb_vdiff.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_diag.o
+  FC       src/atm_phy_rte_rrtmgp/mo_cloud_gas_profiles.o
+  FC       src/atm_phy_nwp/mo_nwp_gscp_interface.o
+  FC       src/atm_phy_schemes/mo_radiation.o
+  FC       src/io/restart/mo_restart.o
+  FC       src/atm_phy_nwp/mo_nwp_phy_cleanup.o
+  FC       src/atm_phy_nwp/mo_nwp_aerosol.o
+  FC       src/atm_dyn_iconam/mo_nh_diffusion.o
+  FC       src/atm_dyn_iconam/mo_velocity_advection.o
+  FC       src/atm_phy_rte_rrtmgp/mo_rte_rrtmgp_setup.o
+  FC       src/atm_phy_aes/tmx/mo_vdf.o
+  FC       src/atm_phy_aes/mo_surface_diag.o
+  FC       src/atm_phy_aes/mo_diagnose_uvi.o
+  FC       src/upper_atmosphere/mo_nwp_upatmo_interface.o
+  FC       src/atm_phy_aes/mo_aes_diagnostics.o
+  FC       src/atm_phy_aes/mo_atm_energy_diag.o
+  FC       src/atm_phy_aes/mo_aes_phy_diag.o
+  FC       src/atm_phy_aes/mo_interface_cleo.o
+  FC       src/atm_phy_aes/mo_interface_cloud_mig.o
+  FC       src/atm_phy_aes/mo_interface_aes_wmo.o
+  FC       src/atm_phy_aes/mo_interface_cloud_two.o
+  FC       src/atm_phy_aes/mo_interface_aes_rht.o
+  FC       src/atm_phy_aes/mo_interface_aes_art.o
+  FC       src/atm_phy_aes/mo_diagnose_cov.o
+  FC       src/atm_phy_aes/mo_interface_aes_car.o
+  FC       src/atm_phy_aes/mo_diagnose_qvi.o
+  FC       src/atm_phy_aes/mo_diagnose_qall.o
+  FC       src/atm_phy_aes/mo_diagnose_tcw.o
+  FC       src/atm_phy_aes/mo_diagnose_clwvi.o
+  FC       src/atm_dyn_iconam/mo_pp_scheduler.o
+  FC       src/upper_atmosphere/mo_upatmo_phy_setup.o
+  FC       src/coupling/mo_aes_ocean_coupling.o
+  FC       src/io/atmo/mo_mtgrm_output.o
+  FC       src/atm_phy_nwp/mo_nwp_vdiff_sea.o
+  FC       src/atm_phy_aes/mo_surface.o
+  FC       src/io/atmo/mo_async_latbc.o
+  FC       src/atm_phy_aes/mo_aes_phy_cleanup.o
+  FC       src/atm_phy_rte_rrtmgp/mo_rte_rrtmgp_interface.o
+  FC       src/lnd_phy_nwp/mo_nwp_sfc_utils.o
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/lnd_phy_nwp/mo_nwp_sfc_utils.f90:1863:0:
+
+ 1863 | #endif _OPENACC
+      | 
+Warning: extra tokens at end of #endif directive
+  FC       src/atm_phy_les/mo_les_turb_interface.o
+  FC       src/atm_phy_nwp/mo_nwp_rrtm_interface.o
+  FC       src/atm_dyn_iconam/mo_solve_nonhydro.o
+  FC       src/atm_phy_aes/mo_interface_aes_tmx.o
+  FC       src/coupling/mo_atmo_ocean_coupling.o
+  FC       src/atm_phy_aes/mo_interface_aes_vdf.o
+  FC       src/atm_phy_nwp/mo_nwp_vdiff_interface.o
+  FC       src/atm_phy_rte_rrtmgp/mo_rte_rrtmgp_radiation.o
+  FC       src/atm_phy_aes/mo_aes_phy_init.o
+  FC       src/coupling/mo_atmo_coupling_frame.o
+  FC       src/atm_phy_nwp/mo_nwp_rad_interface.o
+  FC       src/atm_dyn_iconam/mo_initicon_utils.o
+  FC       src/lnd_phy_nwp/mo_nwp_sfc_interface.o
+  FC       src/atm_phy_aes/mo_interface_aes_rad.o
+  FC       src/io/shared/mo_name_list_output.o
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/io/shared/mo_name_list_output.f90:2902:0:
+
+ 2902 | #else ! ASYNC_IO_RMA
+      | 
+Warning: extra tokens at end of #else directive
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/io/shared/mo_name_list_output.f90:2986:0:
+
+ 2986 | #else ! ASYNC_IO_RMA
+      | 
+Warning: extra tokens at end of #else directive
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/io/shared/mo_name_list_output.f90:3024:0:
+
+ 3024 | #else ! ASYNC_IO_RMA
+      | 
+Warning: extra tokens at end of #else directive
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/io/shared/mo_name_list_output.f90:3156:0:
+
+ 3156 | #else ASYNC_IO_RMA
+      | 
+Warning: extra tokens at end of #else directive
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/io/shared/mo_name_list_output.f90:3184:0:
+
+ 3184 | #endif ! NO_ASYNC_IO_RMA
+      | 
+Warning: extra tokens at end of #endif directive
+/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/src/io/shared/mo_name_list_output.f90:3610:0:
+
+ 3610 | #else ! ASYNC_IO_RMA
+      | 
+Warning: extra tokens at end of #else directive
+  FC       src/lnd_phy_nwp/mo_td_ext_data.o
+  FC       src/atm_phy_aes/mo_aes_phy_main.o
+  FC       src/atm_phy_aes/mo_aes_phy_bcs.o
+  FC       src/io/icon_output_model/mo_icon_output_tools.o
+  FC       src/atm_phy_aes/mo_interface_iconam_aes.o
+  FC       src/io/icon_output_model/mo_icon_output_model.o
+  FC       src/io/atmo/mo_input_request_list.o
+  FC       src/atm_dyn_iconam/mo_input_instructions.o
+  FC       src/atm_dyn_iconam/mo_nh_init_nest_utils.o
+  FC       src/atm_phy_nwp/mo_apt_routines.o
+  FC       src/atm_phy_nwp/mo_nwp_phy_init.o
+  FC       src/atm_phy_nwp/mo_nh_interface_nwp.o
+  FC       src/atm_dyn_iconam/mo_initicon_io.o
+  FC       src/io/atmo/mo_util_vgrid.o
+  FC       src/atm_dyn_iconam/mo_initicon.o
+  FC       src/atm_dyn_iconam/mo_nh_stepping.o
+  FC       src/drivers/mo_atmo_nonhydrostatic.o
+  FC       src/drivers/mo_atmo_model.o
+  AR       lib/libicon.a
+  FC       src/drivers/icon.o
+  FCLD     bin/icon
+make[1]: Leaving directory '/home/featurize/work/ASC_Final_Selection/build-icon-gcc'

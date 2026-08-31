@@ -1,0 +1,167 @@
+&parallel_nml
+    iorder_sendrecv = 3
+    nproma = 32
+    num_io_procs = 2
+    num_restart_procs = 1
+    nblocks_c = 0
+    nproma_sub = 32
+    io_proc_chunk_size = 46
+    io_process_stride = 8
+/
+&grid_nml
+    dynamics_grid_filename = 'icon_grid_G.nc'
+/
+&dynamics_nml
+    lmoist_thdyn = .true.
+/
+&run_nml
+    num_lev = 90 ! number of full levels
+    modeltimestep = 'PT1M'
+    ltestcase = .true. ! run testcase
+    ldynamics = .true. ! dynamics
+    ltransport = .true. ! transport
+    iforcing = 2 ! 0: none, 1: HS, 2: ECHAM, 3: NWP
+    output = 'nml'
+    msg_level = 15 ! level of details report during integration
+    restart_filename = 'ape_from_spinup_restart_atm_<rsttime>.nc'
+    activate_sync_timers = .true.
+    profiling_output = 1
+    timers_level = 10
+/
+&nonhydrostatic_nml
+    ndyn_substeps = 5 ! dtime/dt_dyn
+    damp_height = 44000. ! [m]
+    rayleigh_coeff = 1.0 ! set to 0.1001 for rerun with little change
+    vwind_offctr = 0.2
+    divdamp_fac = 0.004
+    divdamp_order = 24
+    divdamp_trans_end = 17500
+    divdamp_trans_start = 12500
+    divdamp_type = 32
+    exner_expol = 0.333
+    hbot_qvsubstep = 16000.
+    htop_moist_proc = 22500.
+    iadv_rhotheta = 2
+    igradp_method = 3
+    itime_scheme = 4
+    ivctype = 2
+    l_zdiffu_t = .true.
+    thhgtd_zdiffu = 125.
+    thslp_zdiffu = 0.02
+/
+&interpol_nml
+    rbf_scale_mode_ll = 1
+/
+&sleve_nml
+    min_lay_thckn = 25. ! [m]
+    top_height = 75000. ! [m]
+    stretch_fac = 0.9
+    decay_scale_1 = 4000. ! [m]
+    decay_scale_2 = 2500. ! [m]
+    decay_exp = 1.2
+    flat_height = 22500. ! [m]
+    htop_thcknlimit = 14000.
+    max_lay_thckn = 400.
+/
+&aes_phy_nml
+    ! domain 1
+    aes_phy_config(1)%dt_rad = 'PT20M'
+    aes_phy_config(1)%dt_vdf = 'PT1M'
+    aes_phy_config(1)%dt_mig = 'PT1M'
+    aes_phy_config(1)%l2moment = .false.
+    aes_phy_config(1)%ljsb = .false.
+    aes_phy_config(1)%lice = .false.
+    aes_phy_config(1)%llake = .false.
+    aes_phy_config(1)%lamip = .false.
+    aes_phy_config(1)%lmlo = .false.
+/
+&aes_rad_nml
+    ! domain 1
+    aes_rad_config(1)%isolrad = 2
+    aes_rad_config(1)%irad_h2o = 1
+    aes_rad_config(1)%irad_co2 = 2
+    aes_rad_config(1)%irad_ch4 = 0
+    aes_rad_config(1)%irad_n2o = 0
+    aes_rad_config(1)%irad_o3 = 4 ! constant annual cycle climatology
+    aes_rad_config(1)%irad_o2 = 0
+    aes_rad_config(1)%irad_cfc11 = 0
+    aes_rad_config(1)%irad_cfc12 = 0
+    aes_rad_config(1)%irad_aero = 0
+    aes_rad_config(1)%vmr_co2 = 284.317e-6 ! constant ratio (348.0e-6)
+    aes_rad_config(1)%vmr_ch4 = 808.249e-9 ! constant ratio (1650.0e-9)
+    aes_rad_config(1)%vmr_n2o = 273.021e-9 ! constant ratio (306.0e-9)
+    aes_rad_config(1)%lyr_perp = .true.
+    aes_rad_config(1)%yr_perp = 1850
+    aes_rad_config(1)%cecc = 0.0
+    aes_rad_config(1)%cobld = 0.0
+    aes_rad_config(1)%l_orbvsop87 = .false.
+/
+! Parameters for all output files
+! -------------------------------
+&io_nml
+    output_nml_dict = 'dict.txt'
+    netcdf_dict = 'dict.txt'
+    itype_pres_msl = 4
+    restart_file_type = 5
+    ! restart_write_mode = 'joint procs multifile' ! not useful in r2b4 setup
+    ! lnetcdf_flt64_output = .true. ! 64 bit output in all files
+    ! lkeep_in_sync = .true. ! sync after each timestep
+    write_initial_state = .false.
+    lnetcdf_flt64_output = .false.
+    restart_write_mode = 'joint procs multifile'
+    write_last_restart = .true.
+/
+&aes_cov_nml
+    aes_cov_config(1)%cqx = 1.e-6
+/
+&aes_vdf_nml
+    aes_vdf_config(1)%pr0 = 0.7
+    aes_vdf_config(1)%turb = 2
+/
+&nh_testcase_nml
+    ape_sst_case = 'sst_qobs'
+    nh_test_name = 'APE_aes'
+    zp_ape = 101325
+    ztmc_ape = 25.006
+/
+&transport_nml
+    ihadv_tracer = 20, 20, 20, 20, 20, 20
+    itype_hlimit = 3, 4, 4, 4, 4, 4
+    ivadv_tracer = 3, 3, 3, 3, 3, 3
+    tracer_names = 'hus', 'clw', 'cli', 'qr', 'qs', 'qg'
+/
+&output_nml ! 'atm_2d_p1d_ml'
+    output_filename = 'ape_from_spinup_atm_2d_P1D'
+    filename_format = '<output_filename>_<datetime2>'
+    filetype = 5
+    mode = 1
+    output_start = '1979-01-01'
+    output_end = '1979-07-20'
+    output_interval = 'P1D'
+    file_interval = 'P1M'
+    include_last = .false.
+    output_grid = .false.
+    operation = 'mean'
+    ml_varlist = 'ps', 'tas', 'cptgzvi', 'rsdt', 'rsut', 'rsutcs', 'rlut',
+                 'rlutcs', 'rsds', 'rsdscs', 'rlds', 'rldscs', 'rsus', 'rsuscs',
+                 'rlus', 'hfls', 'hfss', 'clt', 'pr', 'prw', 'cllvi', 'clivi',
+                 'evspsbl', 'qgvi', 'qrvi', 'qsvi', 'qv2m', 'tauu', 'tauv',
+                 'sfcwind', 'uas', 'vas'
+/
+&output_nml ! 'atm_3d_p1d_ml'
+    output_filename = 'ape_from_spinup_atm_3d_P1D'
+    filename_format = '<output_filename>_<datetime2>'
+    filetype = 5
+    mode = 1
+    output_start = '1979-01-01'
+    output_end = '1979-07-20'
+    output_interval = 'P1D'
+    file_interval = 'P1M'
+    include_last = .false.
+    output_grid = .false.
+    operation = 'mean'
+    ml_varlist = 'pfull', 'ta', 'rho', 'ua', 'va', 'wa', 'hus', 'cli', 'clw',
+                 'qr', 'qg', 'qs', 'phalf', 'rsd', 'rsu', 'rld', 'rlu'
+    m_levels = '30...(nlev)'
+/
+

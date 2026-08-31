@@ -1,0 +1,32 @@
+[
+  {
+    "role": "grid",
+    "path": "/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/icon_grid_0013_R02B04_G.nc",
+    "exists": false,
+    "valid": false
+  },
+  {
+    "role": "ozone",
+    "path": "/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/bc_ozone_ape.nc",
+    "exists": false,
+    "valid": false
+  },
+  {
+    "role": "greenhouse",
+    "path": "/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/greenhouse_historical_plus.nc",
+    "exists": false,
+    "valid": false
+  },
+  {
+    "role": "restart_attributes",
+    "path": "/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/ape_from_spinup_restart_atm_19790701T000000Z.nc/attributes.nc",
+    "exists": false,
+    "valid": false
+  },
+  {
+    "role": "restart_patch",
+    "path": "/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/ape_from_spinup_restart_atm_19790701T000000Z.nc/patch1_0.nc",
+    "exists": false,
+    "valid": false
+  }
+]

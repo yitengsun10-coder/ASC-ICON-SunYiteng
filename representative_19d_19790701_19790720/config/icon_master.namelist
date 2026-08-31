@@ -1,0 +1,21 @@
+&master_nml
+    lrestart = .true.
+    read_restart_namelists = .false.
+/
+&master_time_control_nml
+    calendar = 'proleptic gregorian'
+    checkpointtimeintval = 'P2M'
+    restarttimeintval = 'P2M'
+    experimentstartdate = '1979-01-01' ! TODO: hack to reproduce result
+    experimentstopdate = '1979-07-20'
+/
+&master_model_nml ! 'atmo'
+    model_name = 'atm'
+    model_namelist_filename = 'NAMELIST_atm'
+    model_type = 1
+    model_min_rank = 0
+    model_max_rank = 31
+    model_inc_rank = 1
+    model_rank_group_size = 1
+/
+

@@ -1,0 +1,24 @@
+Command exited with non-zero status 1
+	Command being timed: "bash /home/featurize/work/ASC_Final_Selection/scripts/icon/install.sh /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model /home/featurize/work/ASC_Final_Selection/build-icon-gcc"
+	User time (seconds): 4.62
+	System time (seconds): 2.41
+	Percent of CPU this job got: 43%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 98544
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1209
+	Minor (reclaiming a frame) page faults: 363938
+	Voluntary context switches: 30067
+	Involuntary context switches: 1146
+	Swaps: 0
+	File system inputs: 215936
+	File system outputs: 295472
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

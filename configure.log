@@ -1,0 +1,75 @@
+configure: loop exchange is enabled because no GPU support is requested: disable the loop exchange if required (--disable-loop-exchange)
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for the fully qualified domain name of the host... featurize
+checking whether the Fortran compiler works... yes
+checking for Fortran compiler default output file name... a.out
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU Fortran compiler... yes
+checking whether mpifort accepts -g... yes
+checking for Fortran compiler flag needed to compile preprocessed .f90 files... -cpp
+checking for Fortran compiler vendor... gnu
+checking for Fortran compiler version... 11.4.0
+checking for Fortran compiler flag needed to add a directory to the runtime library search path... -Wl,-rpath,
+checking whether Fortran compiler accepts the automatically generated RPATH flags... yes
+checking whether we are cross compiling... no
+checking for Fortran flag needed to accept unlimited column source lines... -ffree-line-length-none
+checking for Fortran compiler flag needed to specify search paths for module files... -I
+checking for Fortran compiler flag needed to specify output path for module files... -J
+checking for Fortran compiler module file naming template... {name}.mod
+checking for Fortran compiler submodule file naming template... {name}@{sname}.smod
+checking whether Fortran compiler generates submodule files for root ancestors... yes
+checking for Fortran compiler flag needed to specify search paths for the "INCLUDE" statement... -I
+checking for Fortran compiler search path order for the "INCLUDE" statement... src,flg
+checking for Fortran compiler flag needed to specify search paths for the quoted form of the "#include" directive... -I
+checking for Fortran compiler search path order for the quoted form of the "#include" directive... inc,flg
+checking for Fortran compiler flag needed to define a preprocessor macro... -D
+checking whether mpifort supports CONTIGUOUS attribute... yes
+checking whether mpifort supports quadruple-precision real kind... yes
+checking for gcc... mpicc
+checking whether we are using the GNU C compiler... yes
+checking whether mpicc accepts -g... yes
+checking for mpicc option to accept ISO C89... none needed
+checking for mpicc option to accept ISO C99... none needed
+checking for C compiler vendor... gnu
+checking for C compiler version... 11.4.0
+checking for stdlib.h... yes
+checking for stdio.h... yes
+checking for math.h... yes
+checking for time.h... yes
+checking for ctype.h... yes
+checking for string.h... yes
+checking for assert.h... yes
+checking for stdbool.h... yes
+checking for dirent.h... yes
+checking for errno.h... yes
+checking for fcntl.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking whether the Fortran preprocessor macro _OPENMP is defined... no
+checking whether the Fortran preprocessor macro _OPENACC is defined... no
+checking whether the Fortran 90 interface of MPI library is available... yes
+checking for MPI launch program... mpirun
+checking for the absolute path to mpirun... /usr/bin/mpirun
+checking for the version of the supported MPI standard... 3.1
+configure: usage of the MPI_Rget routine is enabled because the provided MPI library supports standard 3.0 or higher: disable the usage if required (--disable-mpi-rget)
+checking for interfaces for MPI routines with choice arguments... yes
+checking whether the MPI_Alloc_mem interface accepts a TYPE(C_PTR) argument... yes
+checking whether the Fortran 90 interface of NetCDF library is available... no
+configure: error: in `/home/featurize/work/ASC_Final_Selection/build-icon-gcc':
+configure: error: unable to link a test program using the Fortran 90 interface of NetCDF library: set FCFLAGS, LDFLAGS and LIBS accordingly
+See `config.log' for more details
+
+********************************************************************************
+The users are recommended to run site-specific wrappers instead of this generic
+configure script.
+
+You can find the wrappers in '/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/config/<organization>/'.
+
+If you are running a wrapper and still see this message than either you are
+using a wrong one or the wrapper is broken, or there is really a problem with
+the configure script.
+********************************************************************************
+

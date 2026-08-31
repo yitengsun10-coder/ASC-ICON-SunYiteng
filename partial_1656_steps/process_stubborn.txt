@@ -1,0 +1,36 @@
+  56924   56923 Ss    0.0          \_ zsh -c printf '%s' 'c2V0IC1lCnJlcz0vaG9tZS9mZWF0dXJpemUvd29yay9BU0NfRmluYWxfU2VsZWN0aW9uL3Jlc3VsdHMvaWNvbl9mb3JtYWwvcGFydGlhbF9yZWR1Y2VkCnBzIC1lbyBwaWQscHBpZCxzdGF0LHBjcHUsYXJncyAtLWZvcmVzdCB8IGdyZXAgLUEyNSAtQjMgJzU0NjU1JyB8IHRlZSAiJHJlcy9wcm9jZXNzX3N0dWJib3JuLnR4dCIgfHwgdHJ1ZQpraWxsIC1URVJNIDU0NjU1IDI+L2Rldi9udWxsIHx8IHRydWUKc2xlZXAgMTAKaWYga2lsbCAtMCA1NDY1NSAyPi9kZXYvbnVsbDsgdGhlbiBraWxsIC1LSUxMIDU0NjU1OyBmaQpzbGVlcCA1CiMga2lsbCBvcnBoYW5lZCBleGFjdCBpY29uIGJpbmFyeSByYW5rcyBvbmx5CmZvciBwIGluICQocHMgLWVvIHBpZCxhcmdzIHwgYXdrICckMCB+IC9cL2J1aWxkLWljb24tZ2NjXC9iaW5cL2ljb258XC5cL2ljb24kLyB7cHJpbnQgJDF9Jyk7IGRvIGtpbGwgLVRFUk0gIiRwIiAyPi9kZXYvbnVsbCB8fCB0cnVlOyBkb25lCnNsZWVwIDMKZm9yIHAgaW4gJChwcyAtZW8gcGlkLGFyZ3MgfCBhd2sgJyQwIH4gL1wvYnVpbGQtaWNvbi1nY2NcL2JpblwvaWNvbnxcLlwvaWNvbiQvIHtwcmludCAkMX0nKTsgZG8ga2lsbCAtS0lMTCAiJHAiIDI+L2Rldi9udWxsIHx8IHRydWU7IGRvbmUKcHMgLWVvIHBpZCxwcGlkLHN0YXQscGNwdSxhcmdzIHwgZ3JlcCAtRSAnW21dcGlydW58W2JdaW4vaWNvbnxbLl1cL2ljb24kJyB8IHRlZSAiJHJlcy9wcm9jZXNzX2FmdGVyX3N0b3AudHh0IiB8fCB0cnVlCnVwdGltZQ==' | base64 -d | bash
+  56927   56924 S     0.0              \_ bash
+  56928   56927 R     0.0                  \_ ps -eo pid,ppid,stat,pcpu,args --forest
+  56929   56927 S     0.0                  \_ grep -A25 -B3 54655
+  56930   56927 S     0.0                  \_ tee /home/featurize/work/ASC_Final_Selection/results/icon_formal/partial_reduced/process_stubborn.txt
+    938       1 Ss+   0.0 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0 vt220
+    941       1 Ss+   0.0 /sbin/agetty -o -p -- \u --noclear tty1 linux
+    963       1 Ss    0.0 /sbin/cachefilesd
+    990       1 Ssl   0.0 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+   1224       1 Ss    0.0 /lib/systemd/systemd-resolved
+   2418       1 Ssl   0.0 /usr/local/bin/fpn
+   3200       1 Ssl   0.0 /usr/libexec/packagekitd
+   3204       1 Ssl   0.0 /usr/libexec/polkitd --no-debug
+  54547       1 Ss    0.0 /lib/systemd/systemd --user
+  54548   54547 S     0.0  \_ (sd-pam)
+  54613       1 S     0.0 bash -c /usr/bin/time -v bash '/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/experiments/ape_from_spinup/scripts/ape_from_spinup.run' > '/home/featurize/work/ASC_Final_Selection/results/icon_formal/wrapper_stdout.log' 2> '/home/featurize/work/ASC_Final_Selection/results/icon_formal/resource.log'; echo $? > '/home/featurize/work/ASC_Final_Selection/results/icon_formal/exit_code.txt'; date -Is > '/home/featurize/work/ASC_Final_Selection/results/icon_formal/finished_at.txt'
+  54615   54613 S     0.0  \_ /usr/bin/time -v bash /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/experiments/ape_from_spinup/scripts/ape_from_spinup.run
+  54617   54615 S     0.0      \_ bash /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/experiments/ape_from_spinup/scripts/ape_from_spinup.run
+  54621   54617 S     0.0          \_ python3 /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/utils/timewarp ape_from_spinup_run_54617.pipe
+  54655   54617 Sl    0.0          \_ mpirun --allow-run-as-root --bind-to core --map-by core -np 16 ./icon
+  54662   54655 Rl   99.9              \_ ./icon
+  54663   54655 Rl   99.9              \_ ./icon
+  54664   54655 Rl   99.9              \_ ./icon
+  54665   54655 Rl   99.9              \_ ./icon
+  54666   54655 Rl   99.9              \_ ./icon
+  54667   54655 Rl   99.9              \_ ./icon
+  54668   54655 Rl   99.9              \_ ./icon
+  54669   54655 Rl   99.9              \_ ./icon
+  54671   54655 Rl   99.9              \_ ./icon
+  54676   54655 Rl   99.9              \_ ./icon
+  54679   54655 Rl   99.9              \_ ./icon
+  54689   54655 Rl   99.9              \_ ./icon
+  54693   54655 Rl   99.9              \_ ./icon
+  54695   54655 Rl   99.9              \_ ./icon
+  54696   54655 Rl   99.9              \_ ./icon
+  54697   54655 Rl   99.9              \_ ./icon

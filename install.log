@@ -1,0 +1,143 @@
+Ign:1 https://download.docker.com/linux/ubuntu jammy InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:1 https://download.docker.com/linux/ubuntu jammy InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.71-2).
+automake is already the newest version (1:1.16.5-1.3).
+libblas-dev is already the newest version (3.10.0-2ubuntu1).
+libblas-dev set to manually installed.
+liblapack-dev is already the newest version (3.10.0-2ubuntu1).
+libtool is already the newest version (2.4.6-15build2).
+make is already the newest version (4.3-4.1build1).
+make set to manually installed.
+pkg-config is already the newest version (0.29.2-1ubuntu3).
+ruby is already the newest version (1:3.0~exp1).
+libeccodes-dev is already the newest version (2.24.2-1).
+libfyaml-dev is already the newest version (0.7.12-1).
+libhdf5-dev is already the newest version (1.10.7+repack-4ubuntu2).
+libnetcdf-dev is already the newest version (1:4.8.1-1).
+libnetcdff-dev is already the newest version (4.5.4+ds-1).
+libopenmpi-dev is already the newest version (4.1.2-2ubuntu1).
+openmpi-bin is already the newest version (4.1.2-2ubuntu1).
+g++-11 is already the newest version (11.4.0-1ubuntu1~22.04.3).
+g++-11 set to manually installed.
+gcc-11 is already the newest version (11.4.0-1ubuntu1~22.04.3).
+gcc-11 set to manually installed.
+gfortran-11 is already the newest version (11.4.0-1ubuntu1~22.04.3).
+gfortran-11 set to manually installed.
+libxml2-dev is already the newest version (2.9.13+dfsg-1ubuntu0.12).
+git-lfs is already the newest version (3.0.2-1ubuntu0.3).
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+The following packages will be upgraded:
+  git
+1 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Need to get 3174 kB of archives.
+After this operation, 16.4 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.17 [3174 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 3174 kB in 8s (418 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 123658 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.17_amd64.deb ...
+Unpacking git (1:2.34.1-1ubuntu1.17) over (1:2.34.1-1ubuntu1.10) ...
+Setting up git (1:2.34.1-1ubuntu1.17) ...
+
+Running kernel seems to be up-to-date.
+
+Services to be restarted:
+ systemctl restart apphub.service
+ systemctl restart fpn.service
+ systemctl restart multipathd.service
+ systemctl restart packagekit.service
+ systemctl restart polkit.service
+ systemctl restart ssh.service
+ systemctl restart systemd-journald.service
+ /etc/needrestart/restart.d/systemd-manager
+ systemctl restart systemd-networkd.service
+ systemctl restart systemd-resolved.service
+ systemctl restart systemd-timesyncd.service
+ systemctl restart systemd-udevd.service
+
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart user@1000.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Git LFS initialized.
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize: copying file 'config/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:31: installing 'config/compile'
+configure.ac:17: installing 'config/config.guess'
+configure.ac:17: installing 'config/config.sub'
+configure.ac:20: installing 'config/install-sh'
+configure.ac:20: installing 'config/missing'
+app/Makefile.am: installing 'config/depcomp'
+parallel-tests: installing 'config/test-driver'
+interfaces/python/Makefile.am:3: installing 'config/py-compile'
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize: copying file 'config/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+applying contrib/00nagfor-libtool-patch/nagfor-libtool-2.4.6.patch
+patching file config/ltmain.sh
+Hunk #1 succeeded at 3309 (offset 92 lines).
+Hunk #2 succeeded at 7258 (offset 92 lines).
+Hunk #3 succeeded at 7319 (offset 92 lines).
+Hunk #4 succeeded at 9668 (offset 104 lines).
+Hunk #5 succeeded at 10404 (offset 104 lines).
+applying contrib/01aix-deplib-rpath-patch/aix-deplib-libtool.patch
+patching file config/ltmain.sh
+Hunk #1 succeeded at 8734 (offset 1563 lines).
+applying contrib/03ltmain-ld-groups-patch/ltmain-ld-groups-libtool-2.4.6.patch
+patching file config/ltmain.sh
+Hunk #1 succeeded at 7318 (offset 92 lines).
+Hunk #2 succeeded at 7985 (offset 101 lines).
+applying contrib/04ltmain-xlinker-patch/ltmain-xlinker-patch.patch
+patching file config/ltmain.sh
+Hunk #1 succeeded at 3402 (offset 92 lines).
+Hunk #2 succeeded at 3433 (offset 92 lines).
+applying contrib/05macos-nagfor-patch/macos-nagfor.patch
+patching file config/ltmain.sh
+Hunk #1 succeeded at 9062 (offset 104 lines).
+applying contrib/06ltmain_nag_pthread-patch/ltmain_nag_pthread.patch
+patching file config/ltmain.sh
+Hunk #1 succeeded at 8037 (offset 101 lines).
+Hunk #2 succeeded at 9680 (offset 104 lines).
+Hunk #3 succeeded at 10452 (offset 104 lines).
+applying contrib/07ltmain-early-xcompile-patch/ltmain-early-xcompile-libtool-2.4.6.patch
+patching file config/ltmain.sh
+Hunk #1 succeeded at 3392 (offset 92 lines).
+applying contrib/08ltmain-parallel-printf-patch/ltmain-parallel-printf.patch
+patching file config/ltmain.sh
+configure.ac:31: installing 'config/compile'
+configure.ac:20: installing 'config/missing'
+app/Makefile.am: installing 'config/depcomp'

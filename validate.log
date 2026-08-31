@@ -1,0 +1,5 @@
+MISSING/INVALID grid                 /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/icon_grid_0013_R02B04_G.nc
+MISSING/INVALID ozone                /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/bc_ozone_ape.nc
+MISSING/INVALID greenhouse           /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/greenhouse_historical_plus.nc
+MISSING/INVALID restart_attributes   /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/ape_from_spinup_restart_atm_19790701T000000Z.nc/attributes.nc
+MISSING/INVALID restart_patch        /home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/testcase/normalized_inputs/ape_from_spinup_restart_atm_19790701T000000Z.nc/patch1_0.nc

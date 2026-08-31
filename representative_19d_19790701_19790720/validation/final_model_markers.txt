@@ -1,0 +1,5 @@
+2026-08-31T04:11:21.458:  Time step:    92520 model time 1979-07-20 00:00:00.000
+2026-08-31T04:11:24.786:  mo_name_list_output::write_name_list_output: Output to ape_from_spinup_atm_2d_P1D_19790701T000000Z.nc_part_2+ at simulation time 1979-07-20T00:00:00.000 by PE 30
+2026-08-31T04:11:24.786:  mo_name_list_output::write_name_list_output: Output to ape_from_spinup_atm_3d_P1D_19790701T000000Z.nc_part_2+ at simulation time 1979-07-20T00:00:00.000 by PE 31
+2026-08-31T04:11:25.263:  Timer report, ranks 0-29
+2026-08-31T04:11:25.521:  Timer report, ranks 30,31

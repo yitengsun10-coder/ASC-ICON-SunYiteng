@@ -1,0 +1,211 @@
+Ign:1 https://download.docker.com/linux/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:1 https://download.docker.com/linux/ubuntu jammy InRelease
+Ign:1 https://download.docker.com/linux/ubuntu jammy InRelease
+Err:1 https://download.docker.com/linux/ubuntu jammy InRelease
+  Could not handshake: The TLS connection was non-properly terminated. [IP: 172.16.0.13 5848]
+Reading package lists...
+W: Failed to fetch https://download.docker.com/linux/ubuntu/dists/jammy/InRelease  Could not handshake: The TLS connection was non-properly terminated. [IP: 172.16.0.13 5848]
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.71-2).
+automake is already the newest version (1:1.16.5-1.3).
+libblas-dev is already the newest version (3.10.0-2ubuntu1).
+liblapack-dev is already the newest version (3.10.0-2ubuntu1).
+libtool is already the newest version (2.4.6-15build2).
+make is already the newest version (4.3-4.1build1).
+pkg-config is already the newest version (0.29.2-1ubuntu3).
+ruby is already the newest version (1:3.0~exp1).
+libeccodes-dev is already the newest version (2.24.2-1).
+libfyaml-dev is already the newest version (0.7.12-1).
+libhdf5-dev is already the newest version (1.10.7+repack-4ubuntu2).
+libnetcdf-dev is already the newest version (1:4.8.1-1).
+libnetcdff-dev is already the newest version (4.5.4+ds-1).
+libopenmpi-dev is already the newest version (4.1.2-2ubuntu1).
+openmpi-bin is already the newest version (4.1.2-2ubuntu1).
+g++-11 is already the newest version (11.4.0-1ubuntu1~22.04.3).
+gcc-11 is already the newest version (11.4.0-1ubuntu1~22.04.3).
+gfortran-11 is already the newest version (11.4.0-1ubuntu1~22.04.3).
+git is already the newest version (1:2.34.1-1ubuntu1.17).
+git set to manually installed.
+libxml2-dev is already the newest version (2.9.13+dfsg-1ubuntu0.12).
+git-lfs is already the newest version (3.0.2-1ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Git LFS initialized.
+Error: value 'int' of constant 'CDI_SIZE_TYPE' is not an integer literal
+Warning: Unrecognized line 'typedef CDI_SIZE_TYPE int;'
+Warning: Unrecognized line 'extern "C" {'
+Warning: Unrecognized line 'enum {'
+Warning: Unrecognized line '  SUBTYPE_TILES                   = 0'
+Warning: Unrecognized line '};'
+Warning: Unrecognized line 'typedef struct  {'
+Warning: Unrecognized line '  int nAND;'
+Warning: Unrecognized line '  int key_value_pairs[2][MAX_KV_PAIRS_MATCH];'
+Warning: Unrecognized line '} subtype_query_t;'
+Error: type of argument ' const char **filename' to function cdiGetProtocol() is not supported
+Error: type of argument ' void *data' to function streamReadVarPart() is not supported
+Error: type of argument ' void *data' to function streamReadVarSlicePart() is not supported
+Error: Can't translate return type 'void *  ' of function stream_get_pointer()
+Error: Can't translate return type 'void *  ' of function stream_get_vlist_pointer()
+Error: type of argument 'void *streamPtr' to function pstreamInqField() is not supported
+Error: type of argument ' off_t *bignum' to function streamInqGRIBinfo() is not supported
+Error: type of argument ' FILE *stream' to function cdiIterator_print() is not supported
+Error: type of argument 'void *vlistPtr' to function pvlistInqFlag() is not supported
+Error: type of argument ' char *xcvals[]' to function gridInqXCvals() is not supported
+Error: type of argument ' char *ycvals[]' to function gridInqYCvals() is not supported
+Error: type of argument ' const char *cvals[]' to function zaxisDefCvals() is not supported
+Error: type of argument ' char ***clevels' to function zaxisInqCVals() is not supported
+Error: type of argument 'FILE *ptfp' to function tableFWriteC() is not supported
+Error: Can't translate return type 'subtype_query_t ' of function keyValuePair()
+Error: Can't translate return type 'subtype_query_t ' of function matchAND()
+Error: type of argument ' subtype_query_t criterion' to function subtypeInqSubEntry() is not supported
+Warning: Unrecognized line '}'
+Warning: Unrecognized line 'extern "C" {'
+Warning: Unrecognized line 'typedef struct'
+Warning: Unrecognized line '{'
+Warning: Unrecognized line '  int numEntries;'
+Warning: Unrecognized line '  int numNames;'
+Warning: Unrecognized line '  bool *namesFound;'
+Warning: Unrecognized line '  char **names;'
+Warning: Unrecognized line '  int numCellidx;'
+Warning: Unrecognized line '  bool *cellidxFound;'
+Warning: Unrecognized line '  size_t *cellidx;'
+Warning: Unrecognized line '  int numLevidx;'
+Warning: Unrecognized line '  bool *levidxFound;'
+Warning: Unrecognized line '  int *levidx;'
+Warning: Unrecognized line '  int numStepidx;'
+Warning: Unrecognized line '  bool *stepidxFound;'
+Warning: Unrecognized line '  int *stepidx;'
+Warning: Unrecognized line '} CdiQuery;'
+Error: Can't translate return type 'CdiQuery *' of function cdiQueryCreate()
+Error: Can't translate return type 'CdiQuery *' of function cdiQueryClone()
+Error: type of argument 'CdiQuery *query' to function cdiQueryDelete() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQuerySetNames() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQuerySetCellidx() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQuerySetLevidx() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQuerySetStepidx() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryGetCellidx() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQueryName() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQueryCellidx() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQueryLevidx() is not supported
+Error: type of argument 'CdiQuery *query' to function cdiQueryStepidx() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryNumNames() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryNumCellidx() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryNumStepidx() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryNumEntries() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryNumEntriesFound() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryPrint() is not supported
+Error: type of argument 'const CdiQuery *query' to function cdiQueryPrintEntriesNotFound() is not supported
+Error: type of argument ' CdiQuery *query' to function streamOpenReadQuery() is not supported
+Error: type of argument ' CdiDateTime rDateTime' to function taxisDefRdatetime() is not supported
+Error: Can't translate return type 'CdiDateTime ' of function taxisInqRdatetime()
+Error: type of argument ' CdiDateTime fDateTime' to function taxisDefFdatetime() is not supported
+Error: Can't translate return type 'CdiDateTime ' of function taxisInqFdatetime()
+Error: type of argument ' CdiDateTime vDateTime' to function taxisDefVdatetime() is not supported
+Error: Can't translate return type 'CdiDateTime ' of function taxisInqVdatetime()
+Error: type of argument ' CdiDateTime vDateTime_lb' to function taxisDefVdatetimeBounds() is not supported
+Error: type of argument ' CdiDateTime *vDateTime_lb' to function taxisInqVdatetimeBounds() is not supported
+Warning: Unrecognized line 'struct CDI_GridProjParams'
+Warning: Unrecognized line '{'
+Warning: Unrecognized line '  double mv;'
+Warning: Unrecognized line '  double lon_0;'
+Warning: Unrecognized line '  double lat_0;'
+Warning: Unrecognized line '  double lat_1;'
+Warning: Unrecognized line '  double lat_2;'
+Warning: Unrecognized line '  double a;'
+Warning: Unrecognized line '  double b;'
+Warning: Unrecognized line '  double rf;'
+Warning: Unrecognized line '  double xval_0;'
+Warning: Unrecognized line '  double yval_0;'
+Warning: Unrecognized line '  double x_0;'
+Warning: Unrecognized line '  double y_0;'
+Warning: Unrecognized line '  double x_SP;'
+Warning: Unrecognized line '  double y_SP;'
+Warning: Unrecognized line '  int nside;'
+Warning: Unrecognized line '  int order;'
+Warning: Unrecognized line '};'
+Error: type of argument 'struct CDI_GridProjParams *gridProjParams' to function gridProjParamsInit() is not supported
+Error: type of argument ' struct CDI_GridProjParams gridProjParams' to function gridDefParamsLCC() is not supported
+Error: type of argument ' struct CDI_GridProjParams *gridProjParams' to function gridInqParamsLCC() is not supported
+Error: type of argument ' struct CDI_GridProjParams gridProjParams' to function gridDefParamsSTERE() is not supported
+Error: type of argument ' struct CDI_GridProjParams *gridProjParams' to function gridInqParamsSTERE() is not supported
+Error: type of argument ' struct CDI_GridProjParams gridProjParams' to function gridDefParamsHEALPIX() is not supported
+Error: type of argument ' struct CDI_GridProjParams *gridProjParams' to function gridInqParamsHEALPIX() is not supported
+Error: Can't translate return type 'extern ' of function int()
+Error: Can't translate return type 'extern ' of function int()
+Error: Can't translate return type 'extern ' of function int()
+Error: Can't translate return type 'extern ' of function int()
+Warning: Unrecognized line '}'
+configure: loop exchange is enabled because no GPU support is requested: disable the loop exchange if required (--disable-loop-exchange)
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for the fully qualified domain name of the host... featurize
+checking whether the Fortran compiler works... yes
+checking for Fortran compiler default output file name... a.out
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU Fortran compiler... yes
+checking whether gfortran-11 accepts -g... yes
+checking for Fortran compiler flag needed to compile preprocessed .f90 files... -cpp
+checking for Fortran compiler vendor... gnu
+checking for Fortran compiler version... 11.4.0
+checking for Fortran compiler flag needed to add a directory to the runtime library search path... -Wl,-rpath,
+checking whether Fortran compiler accepts the automatically generated RPATH flags... yes
+checking whether we are cross compiling... no
+checking for Fortran flag needed to accept unlimited column source lines... -ffree-line-length-none
+checking for Fortran compiler flag needed to specify search paths for module files... -I
+checking for Fortran compiler flag needed to specify output path for module files... -J
+checking for Fortran compiler module file naming template... {name}.mod
+checking for Fortran compiler submodule file naming template... {name}@{sname}.smod
+checking whether Fortran compiler generates submodule files for root ancestors... yes
+checking for Fortran compiler flag needed to specify search paths for the "INCLUDE" statement... -I
+checking for Fortran compiler search path order for the "INCLUDE" statement... src,flg
+checking for Fortran compiler flag needed to specify search paths for the quoted form of the "#include" directive... -I
+checking for Fortran compiler search path order for the quoted form of the "#include" directive... inc,flg
+checking for Fortran compiler flag needed to define a preprocessor macro... -D
+checking whether gfortran-11 supports CONTIGUOUS attribute... yes
+checking whether gfortran-11 supports quadruple-precision real kind... yes
+checking for gcc... gcc-11
+checking whether we are using the GNU C compiler... yes
+checking whether gcc-11 accepts -g... yes
+checking for gcc-11 option to accept ISO C89... none needed
+checking for gcc-11 option to accept ISO C99... none needed
+checking for C compiler vendor... gnu
+checking for C compiler version... 11.4.0
+checking for stdlib.h... yes
+checking for stdio.h... yes
+checking for math.h... yes
+checking for time.h... yes
+checking for ctype.h... yes
+checking for string.h... yes
+checking for assert.h... yes
+checking for stdbool.h... yes
+checking for dirent.h... yes
+checking for errno.h... yes
+checking for fcntl.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking whether the Fortran preprocessor macro _OPENMP is defined... no
+checking whether the Fortran preprocessor macro _OPENACC is defined... no
+checking whether the Fortran 90 interface of MPI library is available... no
+configure: error: in `/home/featurize/work/ASC_Final_Selection/build-icon-gcc':
+configure: error: unable to link a test program using the Fortran 90 interface of MPI library: either disable MPI support (--disable-mpi) and the YAXT data exchange (--disable-yaxt) or set FC to the MPI Fortran compiler wrapper, or set FCFLAGS, LDFLAGS and LIBS accordingly
+See `config.log' for more details
+
+********************************************************************************
+The users are recommended to run site-specific wrappers instead of this generic
+configure script.
+
+You can find the wrappers in '/home/featurize/work/ASC_Final_Selection/sources/ASC26-icon/icon-model/config/<organization>/'.
+
+If you are running a wrapper and still see this message than either you are
+using a wrong one or the wrapper is broken, or there is really a problem with
+the configure script.
+********************************************************************************
+
