@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+build-icon-gcc/
+normalized_inputs/
+reproduced/
+*.nc
+icon
